@@ -144,3 +144,25 @@ h2 {
 #skills ul li:hover {
   transform: scale(1.1); /* Scale up on hover */
 }
+
+/* Responsive styles for mobile */
+
+@media only screen and (max-width: 600px) {
+  .profile-picture {
+    width: 100px; /* Decrease profile picture size for mobile */
+    height: 100px; /* Decrease profile picture size for mobile */
+  }
+
+  header {
+    padding: 10px; /* Decrease header padding for mobile */
+  }
+
+  nav ul li {
+    display: block; /* Display navigation links as block elements for mobile */
+    margin: 10px 0; /* Add margin between navigation links for mobile */
+  }
+
+  section {
+    padding: 20px; /* Decrease section padding for mobile */
+  }
+}
