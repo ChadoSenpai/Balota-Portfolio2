@@ -168,4 +168,99 @@ h2 {
   section {
     padding: 20px; /* Decrease section padding for mobile */
   }
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+.profile-img {
+  border-radius: 50%; /* Make profile picture circular */
+  width: 150px;
+  height: 150px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+section {
+  padding: 50px;
+}
+
+h2 {
+  margin-bottom: 30px;
+}
+
+/* About section */
+#about {
+  background-color: #f0f8ff; /* Light blue background color */
+}
+
+/* Skills section */
+#skills {
+  background-color: #f0f0f0; /* Light grey background color */
+  padding: 50px;
+}
+
+#skills ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#skills ul li {
+  margin-bottom: 10px;
+}
+
+/* Work experiences section */
+#work {
+  background-color: #e6f7ff; /* Lighter blue background color */
+}
+
+.experience {
+  margin-bottom: 40px;
+}
+
+/* Certificates section */
+#certificates {
+  background-color: #d9f2ff; /* Lightest blue background color */
+}
+
+.certificate {
+  margin-bottom: 40px;
+}
+
+.certificate img {
+  max-width: 100%;
+  height: auto;
+  transition: transform 0.3s ease; /* Add transition effect */
+}
+
+.certificate img:hover {
+  transform: scale(1.1); /* Scale up image on hover */
+}
+
+/* Contact section */
+#contact {
+  background-color: #f0f8ff; /* Light blue background color */
+}
 }
