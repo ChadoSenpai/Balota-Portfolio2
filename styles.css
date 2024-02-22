@@ -148,11 +148,14 @@ h2 {
 /* Responsive styles for mobile */
 
 @media only screen and (max-width: 600px) {
-  .profile-picture {
+  .profile-img {
     width: 100px; /* Decrease profile picture size for mobile */
     height: 100px; /* Decrease profile picture size for mobile */
   }
-
+  .certificate img {
+    max-width: 100%; /* Ensure certificate images take up the full width of their container */
+    height: auto; /* Maintain aspect ratio */
+  }
   header {
     padding: 10px; /* Decrease header padding for mobile */
   }
