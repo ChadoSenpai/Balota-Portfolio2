@@ -58,16 +58,10 @@ header h1 {
 nav ul {
   list-style-type: none;
   padding: 0;
-  display: none;
 }
 
 nav ul.show {
   display: block;
-}
-
-/* Styling for mobile menu toggle button */
-#mobile-menu-toggle {
-  display: none; /* Hide button by default */
 }
 
 nav ul li {
