@@ -58,6 +58,16 @@ header h1 {
 nav ul {
   list-style-type: none;
   padding: 0;
+  display: none;
+}
+
+nav ul.show {
+  display: block;
+}
+
+/* Styling for mobile menu toggle button */
+#mobile-menu-toggle {
+  display: none; /* Hide button by default */
 }
 
 nav ul li {
@@ -139,27 +149,30 @@ h2 {
   margin-bottom: 10px;
   transition: transform 0.3s ease; /* Add transition effect */
   text-align: center; /* Center-align the description */
-}
-
+}
 #skills ul li:hover {
   transform: scale(1.1); /* Scale up on hover */
-}
+}
 @media only screen and (max-width: 600px) {
   .profile-img {
     width: 100px; /* Decrease profile picture size for mobile */
     height: 100px; /* Decrease profile picture size for mobile */
   }
+
 #mobile-menu-toggle {
     display: block; /* Show button */
   }
+
   /* Hide navigation menu on small screens by default */
   nav ul {
     display: none;
   }
+
   .certificate img {
     max-width: 100%; /* Ensure certificate images take up the full width of their container */
     height: auto; /* Maintain aspect ratio */
   }
+
   header {
     padding: 10px; /* Decrease header padding for mobile */
   }
