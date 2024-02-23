@@ -143,25 +143,7 @@ h2 {
 
 #skills ul li:hover {
   transform: scale(1.1); /* Scale up on hover */
-}
-
-/* Hide navigation menu by default */
-nav ul {
-  display: none;
-}
-
-/* Show navigation menu when class 'show' is added */
-nav ul.show {
-  display: block;
-}
-
-/* Styling for mobile menu toggle button */
-#mobile-menu-toggle {
-  display: none; /* Hide button by default */
-}
-
-/* Responsive styles for mobile */
-
+}
 @media only screen and (max-width: 600px) {
   .profile-img {
     width: 100px; /* Decrease profile picture size for mobile */
