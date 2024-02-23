@@ -153,10 +153,6 @@ h2 {
     height: 100px; /* Decrease profile picture size for mobile */
   }
 
-#mobile-menu-toggle {
-    display: block; /* Show button */
-  }
-
   /* Hide navigation menu on small screens by default */
   nav ul {
     display: none;
