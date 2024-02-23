@@ -40,7 +40,7 @@ header {
   font-size: inherit;
 }
 
-.profile-picture {
+.profile-img {
   border-radius: 50%; /* Make profile picture round */
   width: 150px;
   height: 150px;
@@ -58,10 +58,6 @@ header h1 {
 nav ul {
   list-style-type: none;
   padding: 0;
-}
-
-nav ul.show {
-  display: block;
 }
 
 nav ul li {
