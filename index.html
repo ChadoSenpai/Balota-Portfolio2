@@ -13,20 +13,22 @@
     <nav>
       <ul>
         <li><a href="#about">About</a></li>
-	 <li><a href="#skills">Skills</a></li>
+        <li><a href="#skills">Skills</a></li>
         <li><a href="#work">Work Experiences</a></li>
         <li><a href="#certificates">Certificates</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
+    <button id="mobile-menu-toggle">Menu</button>
   </header>
   
   <section id="about">
     <h2>About Me</h2>
     <p>Hello! My Name is Chadwick John A. Balota live in Pagsawitan Sta. Cruz, Laguna, and 
-	Im 23 years old graduated from Laguna State Polytechnic University Sta. Cruz Campus in 
-	BS Information Technology majoring in Web and Mobile Development Application Program.</p>
+    Im 23 years old graduated from Laguna State Polytechnic University Sta. Cruz Campus in 
+    BS Information Technology majoring in Web and Mobile Development Application Program.</p>
   </section>
+  
   
   <section id="skills">
   <h2>Skills</h2>
@@ -117,5 +119,14 @@
     <p>Email: Chadwickbalota12@gmail.com | Chadwickbalota06@gmail.com</p>
     <p>Phone: 09459835325 | 09854233428</p>
   </section>
+  <script>
+    // JavaScript code
+    const mobileMenuToggle = document.getElementById('mobile-menu-toggle');
+    const nav = document.querySelector('nav ul');
+
+    mobileMenuToggle.addEventListener('click', () => {
+      nav.classList.toggle('show');
+    });
+  </script>
 </body>
 </html>
