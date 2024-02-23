@@ -153,11 +153,6 @@ h2 {
     height: 100px; /* Decrease profile picture size for mobile */
   }
 
-  /* Hide navigation menu on small screens by default */
-  nav ul {
-    display: none;
-  }
-
   .certificate img {
     max-width: 100%; /* Ensure certificate images take up the full width of their container */
     height: auto; /* Maintain aspect ratio */
